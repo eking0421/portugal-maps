@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_16ddf08029d2976ede98752133a72bff {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_16ddf08029d2976ede98752133a72bff" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_16ddf08029d2976ede98752133a72bff = L.map(
+                "map_16ddf08029d2976ede98752133a72bff",
+                {
+                    center: [37.5, -8.4],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f590524b0e96938aa0f59c8468b8c632 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_16ddf08029d2976ede98752133a72bff);
+        
+    
+            var marker_12b51c3f4e29948350182250c059ba11 = L.marker(
+                [37.1269, -7.6496],
+                {}
+            ).addTo(map_16ddf08029d2976ede98752133a72bff);
+        
+    
+            var icon_9d5196a991c821cd650078b1074f71f6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_12b51c3f4e29948350182250c059ba11.setIcon(icon_9d5196a991c821cd650078b1074f71f6);
+        
+    
+        var popup_02e1840a5f23db7a8df078fdcda46ffb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3456d6ea33f5bf4a40fb3cb0a21f955 = $(`<div id="html_d3456d6ea33f5bf4a40fb3cb0a21f955" style="width: 100.0%; height: 100.0%;"><b>Tavira</b><br>Summer Avg Temp: 77.0 °F<br>Winter Avg Temp: 54.0 °F<br>Annual Precipitation: 20.5 in</div>`)[0];
+            popup_02e1840a5f23db7a8df078fdcda46ffb.setContent(html_d3456d6ea33f5bf4a40fb3cb0a21f955);
+        
+
+        marker_12b51c3f4e29948350182250c059ba11.bindPopup(popup_02e1840a5f23db7a8df078fdcda46ffb)
+        ;
+
+        
+    
+    
+            var marker_90b16cea9ceb95eced1826c98f313103 = L.marker(
+                [37.0194, -7.9304],
+                {}
+            ).addTo(map_16ddf08029d2976ede98752133a72bff);
+        
+    
+            var icon_c2c2aacebdec0600fb0d12c4c5a94b4c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_90b16cea9ceb95eced1826c98f313103.setIcon(icon_c2c2aacebdec0600fb0d12c4c5a94b4c);
+        
+    
+        var popup_4a0090d1c675d29c8624767cab60b522 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4bf052bff41c8cc17affab6322e1c9d = $(`<div id="html_f4bf052bff41c8cc17affab6322e1c9d" style="width: 100.0%; height: 100.0%;"><b>Faro</b><br>Summer Avg Temp: 77.5 °F<br>Winter Avg Temp: 54.5 °F<br>Annual Precipitation: 20.2 in</div>`)[0];
+            popup_4a0090d1c675d29c8624767cab60b522.setContent(html_f4bf052bff41c8cc17affab6322e1c9d);
+        
+
+        marker_90b16cea9ceb95eced1826c98f313103.bindPopup(popup_4a0090d1c675d29c8624767cab60b522)
+        ;
+
+        
+    
+    
+            var marker_7fc618359af0bed37b8be53cded250cb = L.marker(
+                [37.1366, -8.5378],
+                {}
+            ).addTo(map_16ddf08029d2976ede98752133a72bff);
+        
+    
+            var icon_bcba4523dc96452fec6d54ac73f3cfb6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7fc618359af0bed37b8be53cded250cb.setIcon(icon_bcba4523dc96452fec6d54ac73f3cfb6);
+        
+    
+        var popup_8e6e7865ee2f90775b9d8df7c39f2103 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_06cc76abcb797c785ce67010d3b80032 = $(`<div id="html_06cc76abcb797c785ce67010d3b80032" style="width: 100.0%; height: 100.0%;"><b>Portimão</b><br>Summer Avg Temp: 76.0 °F<br>Winter Avg Temp: 53.5 °F<br>Annual Precipitation: 18.6 in</div>`)[0];
+            popup_8e6e7865ee2f90775b9d8df7c39f2103.setContent(html_06cc76abcb797c785ce67010d3b80032);
+        
+
+        marker_7fc618359af0bed37b8be53cded250cb.bindPopup(popup_8e6e7865ee2f90775b9d8df7c39f2103)
+        ;
+
+        
+    
+    
+            var marker_d91118e99eadd465881d5d19a468e950 = L.marker(
+                [37.0018, -8.9391],
+                {}
+            ).addTo(map_16ddf08029d2976ede98752133a72bff);
+        
+    
+            var icon_8998904feb83985aabe09b177ef7dc6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_d91118e99eadd465881d5d19a468e950.setIcon(icon_8998904feb83985aabe09b177ef7dc6e);
+        
+    
+        var popup_d3fc881b228f7ae86a32b032c63b9d7f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4d8e1def077721606e290ab754881594 = $(`<div id="html_4d8e1def077721606e290ab754881594" style="width: 100.0%; height: 100.0%;"><b>Sagres</b><br>Summer Avg Temp: 72.5 °F<br>Winter Avg Temp: 52.0 °F<br>Annual Precipitation: 19.9 in</div>`)[0];
+            popup_d3fc881b228f7ae86a32b032c63b9d7f.setContent(html_4d8e1def077721606e290ab754881594);
+        
+
+        marker_d91118e99eadd465881d5d19a468e950.bindPopup(popup_d3fc881b228f7ae86a32b032c63b9d7f)
+        ;
+
+        
+    
+    
+            var marker_9b97981f7b429a36c258dced076fee1d = L.marker(
+                [37.102, -8.6742],
+                {}
+            ).addTo(map_16ddf08029d2976ede98752133a72bff);
+        
+    
+            var icon_6963df9e7df41c984e57f6c70712d6f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_9b97981f7b429a36c258dced076fee1d.setIcon(icon_6963df9e7df41c984e57f6c70712d6f4);
+        
+    
+        var popup_0d27c5c9057de0e7d0be1a4f68bbde03 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8d9d4cfe3078ec06073108cbeef33be = $(`<div id="html_a8d9d4cfe3078ec06073108cbeef33be" style="width: 100.0%; height: 100.0%;"><b>Lagos</b><br>Summer Avg Temp: 75.5 °F<br>Winter Avg Temp: 53.0 °F<br>Annual Precipitation: 18.9 in</div>`)[0];
+            popup_0d27c5c9057de0e7d0be1a4f68bbde03.setContent(html_a8d9d4cfe3078ec06073108cbeef33be);
+        
+
+        marker_9b97981f7b429a36c258dced076fee1d.bindPopup(popup_0d27c5c9057de0e7d0be1a4f68bbde03)
+        ;
+
+        
+    
+    
+            var marker_0465fd3391aca4825468912873dddf83 = L.marker(
+                [38.7169, -9.1399],
+                {}
+            ).addTo(map_16ddf08029d2976ede98752133a72bff);
+        
+    
+            var icon_603753c3c7df0e6c9dd18525c594d999 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_0465fd3391aca4825468912873dddf83.setIcon(icon_603753c3c7df0e6c9dd18525c594d999);
+        
+    
+        var popup_b9aa72b07c16f07ad1c3eb24c56145f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a0c71fc510084ff8ff611cb6d311cbb = $(`<div id="html_5a0c71fc510084ff8ff611cb6d311cbb" style="width: 100.0%; height: 100.0%;"><b>Lisbon</b><br>Summer Avg Temp: 76.5 °F<br>Winter Avg Temp: 53.0 °F<br>Annual Precipitation: 28.2 in</div>`)[0];
+            popup_b9aa72b07c16f07ad1c3eb24c56145f9.setContent(html_5a0c71fc510084ff8ff611cb6d311cbb);
+        
+
+        marker_0465fd3391aca4825468912873dddf83.bindPopup(popup_b9aa72b07c16f07ad1c3eb24c56145f9)
+        ;
+
+        
+    
+</script>
+</html>

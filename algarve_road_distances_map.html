@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_47def0d2b2dea4ea9d0b6f7addd8c113 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_47def0d2b2dea4ea9d0b6f7addd8c113" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_47def0d2b2dea4ea9d0b6f7addd8c113 = L.map(
+                "map_47def0d2b2dea4ea9d0b6f7addd8c113",
+                {
+                    center: [37.5, -8.4],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_66a5c0f9e7d0c31da91228b6ff95f92a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_47def0d2b2dea4ea9d0b6f7addd8c113);
+        
+    
+            var marker_d33200a860a21fc4eeb9251ce388dc00 = L.marker(
+                [37.1269, -7.6496],
+                {}
+            ).addTo(map_47def0d2b2dea4ea9d0b6f7addd8c113);
+        
+    
+            var icon_f4646723b3a2a4d911096c228fce1ba3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d33200a860a21fc4eeb9251ce388dc00.setIcon(icon_f4646723b3a2a4d911096c228fce1ba3);
+        
+    
+        var popup_060674ff5a5bdd110971e8747bf06ffa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9838c272a84d8dff4fa0183c50cea493 = $(`<div id="html_9838c272a84d8dff4fa0183c50cea493" style="width: 100.0%; height: 100.0%;">Tavira</div>`)[0];
+            popup_060674ff5a5bdd110971e8747bf06ffa.setContent(html_9838c272a84d8dff4fa0183c50cea493);
+        
+
+        marker_d33200a860a21fc4eeb9251ce388dc00.bindPopup(popup_060674ff5a5bdd110971e8747bf06ffa)
+        ;
+
+        
+    
+    
+            var marker_6876481b768b4791cf90570c89cb86f0 = L.marker(
+                [37.0194, -7.9304],
+                {}
+            ).addTo(map_47def0d2b2dea4ea9d0b6f7addd8c113);
+        
+    
+            var icon_5641a5e9e4a4c4b79d5e31d7af4068fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_6876481b768b4791cf90570c89cb86f0.setIcon(icon_5641a5e9e4a4c4b79d5e31d7af4068fd);
+        
+    
+        var popup_4039f185661c431fc0ec65a1124cc3a1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a25d7f1c627a50e42d53518016f407c = $(`<div id="html_5a25d7f1c627a50e42d53518016f407c" style="width: 100.0%; height: 100.0%;">Faro</div>`)[0];
+            popup_4039f185661c431fc0ec65a1124cc3a1.setContent(html_5a25d7f1c627a50e42d53518016f407c);
+        
+
+        marker_6876481b768b4791cf90570c89cb86f0.bindPopup(popup_4039f185661c431fc0ec65a1124cc3a1)
+        ;
+
+        
+    
+    
+            var marker_a345641827e7b1fd61b712ada1e83bd8 = L.marker(
+                [37.1366, -8.5378],
+                {}
+            ).addTo(map_47def0d2b2dea4ea9d0b6f7addd8c113);
+        
+    
+            var icon_0a478c52e607a35ac500485e29e90598 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a345641827e7b1fd61b712ada1e83bd8.setIcon(icon_0a478c52e607a35ac500485e29e90598);
+        
+    
+        var popup_8c9dbabbc9b1375924114cd137639e7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_35460a3d34727acd0c58fce5de1c8a40 = $(`<div id="html_35460a3d34727acd0c58fce5de1c8a40" style="width: 100.0%; height: 100.0%;">Portimão</div>`)[0];
+            popup_8c9dbabbc9b1375924114cd137639e7b.setContent(html_35460a3d34727acd0c58fce5de1c8a40);
+        
+
+        marker_a345641827e7b1fd61b712ada1e83bd8.bindPopup(popup_8c9dbabbc9b1375924114cd137639e7b)
+        ;
+
+        
+    
+    
+            var marker_cf4f3423fac047018aa1615bfcad2a18 = L.marker(
+                [37.0018, -8.9391],
+                {}
+            ).addTo(map_47def0d2b2dea4ea9d0b6f7addd8c113);
+        
+    
+            var icon_16c7f7dbe91c708576b9096310174bf6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_cf4f3423fac047018aa1615bfcad2a18.setIcon(icon_16c7f7dbe91c708576b9096310174bf6);
+        
+    
+        var popup_b4608f579525587e3bb8c377a88a4e39 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b04798bac7b8fae18be3e3c798e52ef = $(`<div id="html_4b04798bac7b8fae18be3e3c798e52ef" style="width: 100.0%; height: 100.0%;">Sagres</div>`)[0];
+            popup_b4608f579525587e3bb8c377a88a4e39.setContent(html_4b04798bac7b8fae18be3e3c798e52ef);
+        
+
+        marker_cf4f3423fac047018aa1615bfcad2a18.bindPopup(popup_b4608f579525587e3bb8c377a88a4e39)
+        ;
+
+        
+    
+    
+            var marker_45a026c258b8cffa12149c0b4d3b7231 = L.marker(
+                [37.102, -8.6742],
+                {}
+            ).addTo(map_47def0d2b2dea4ea9d0b6f7addd8c113);
+        
+    
+            var icon_ceda3665b4dc74982378f4114bfe1af9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "orange", "prefix": "glyphicon"}
+            );
+            marker_45a026c258b8cffa12149c0b4d3b7231.setIcon(icon_ceda3665b4dc74982378f4114bfe1af9);
+        
+    
+        var popup_34ee586e0c432c57448e1f46a7c002d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14c9cd971d0bd6f981f72e2c7e316b99 = $(`<div id="html_14c9cd971d0bd6f981f72e2c7e316b99" style="width: 100.0%; height: 100.0%;">Lagos</div>`)[0];
+            popup_34ee586e0c432c57448e1f46a7c002d8.setContent(html_14c9cd971d0bd6f981f72e2c7e316b99);
+        
+
+        marker_45a026c258b8cffa12149c0b4d3b7231.bindPopup(popup_34ee586e0c432c57448e1f46a7c002d8)
+        ;
+
+        
+    
+    
+            var marker_2bc3a3340d48f08db9a2c40df7b5abd6 = L.marker(
+                [38.7169, -9.1399],
+                {}
+            ).addTo(map_47def0d2b2dea4ea9d0b6f7addd8c113);
+        
+    
+            var icon_3a6b95f5ce3a0348454c8ab864ca5399 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "black", "prefix": "glyphicon"}
+            );
+            marker_2bc3a3340d48f08db9a2c40df7b5abd6.setIcon(icon_3a6b95f5ce3a0348454c8ab864ca5399);
+        
+    
+        var popup_19807cc170c707c6fb0f6e3d8edbfcfa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ba9168c4d864973d0391f4c8455fae4 = $(`<div id="html_9ba9168c4d864973d0391f4c8455fae4" style="width: 100.0%; height: 100.0%;">Lisbon</div>`)[0];
+            popup_19807cc170c707c6fb0f6e3d8edbfcfa.setContent(html_9ba9168c4d864973d0391f4c8455fae4);
+        
+
+        marker_2bc3a3340d48f08db9a2c40df7b5abd6.bindPopup(popup_19807cc170c707c6fb0f6e3d8edbfcfa)
+        ;
+
+        
+    
+    
+            var poly_line_95650006cc2e1c08ed25f40c2767dc7b = L.polyline(
+                [[37.1269, -7.6496], [37.0194, -7.9304]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47def0d2b2dea4ea9d0b6f7addd8c113);
+        
+    
+            poly_line_95650006cc2e1c08ed25f40c2767dc7b.bindTooltip(
+                `<div>
+                     Tavira to Faro: 24 mi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_51a8365ded278f9a4303d71d8b5ced99 = L.polyline(
+                [[37.1269, -7.6496], [37.1366, -8.5378]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47def0d2b2dea4ea9d0b6f7addd8c113);
+        
+    
+            poly_line_51a8365ded278f9a4303d71d8b5ced99.bindTooltip(
+                `<div>
+                     Tavira to Portimão: 59 mi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e880de3a54372ff9080ea9a5e14afb41 = L.polyline(
+                [[37.1269, -7.6496], [37.0018, -8.9391]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47def0d2b2dea4ea9d0b6f7addd8c113);
+        
+    
+            poly_line_e880de3a54372ff9080ea9a5e14afb41.bindTooltip(
+                `<div>
+                     Tavira to Sagres: 85 mi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_55d1003a86faa37a3b69412766600d56 = L.polyline(
+                [[37.1269, -7.6496], [37.102, -8.6742]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47def0d2b2dea4ea9d0b6f7addd8c113);
+        
+    
+            poly_line_55d1003a86faa37a3b69412766600d56.bindTooltip(
+                `<div>
+                     Tavira to Lagos: 72 mi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_350bc11ea5e420e6efbe6ce63269ef4f = L.polyline(
+                [[37.1269, -7.6496], [38.7169, -9.1399]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47def0d2b2dea4ea9d0b6f7addd8c113);
+        
+    
+            poly_line_350bc11ea5e420e6efbe6ce63269ef4f.bindTooltip(
+                `<div>
+                     Tavira to Lisbon: 190 mi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a313850f0b2ef79094d8d3839c50a7e7 = L.polyline(
+                [[37.0194, -7.9304], [37.1366, -8.5378]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47def0d2b2dea4ea9d0b6f7addd8c113);
+        
+    
+            poly_line_a313850f0b2ef79094d8d3839c50a7e7.bindTooltip(
+                `<div>
+                     Faro to Portimão: 43 mi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3727fea60967c160dd2e9db7ee4fd4d2 = L.polyline(
+                [[37.0194, -7.9304], [37.0018, -8.9391]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47def0d2b2dea4ea9d0b6f7addd8c113);
+        
+    
+            poly_line_3727fea60967c160dd2e9db7ee4fd4d2.bindTooltip(
+                `<div>
+                     Faro to Sagres: 69 mi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_bfcb3dc081014f384c0be1e3a7427b2a = L.polyline(
+                [[37.0194, -7.9304], [37.102, -8.6742]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47def0d2b2dea4ea9d0b6f7addd8c113);
+        
+    
+            poly_line_bfcb3dc081014f384c0be1e3a7427b2a.bindTooltip(
+                `<div>
+                     Faro to Lagos: 56 mi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_b666237c3feda751e743302726d5cc6d = L.polyline(
+                [[37.0194, -7.9304], [38.7169, -9.1399]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47def0d2b2dea4ea9d0b6f7addd8c113);
+        
+    
+            poly_line_b666237c3feda751e743302726d5cc6d.bindTooltip(
+                `<div>
+                     Faro to Lisbon: 173 mi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_3331d52985dd2af598dbc3f312259c81 = L.polyline(
+                [[37.1366, -8.5378], [37.0018, -8.9391]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47def0d2b2dea4ea9d0b6f7addd8c113);
+        
+    
+            poly_line_3331d52985dd2af598dbc3f312259c81.bindTooltip(
+                `<div>
+                     Portimão to Sagres: 25 mi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_700565c44aae8487af1a15e781a2ddac = L.polyline(
+                [[37.1366, -8.5378], [37.102, -8.6742]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47def0d2b2dea4ea9d0b6f7addd8c113);
+        
+    
+            poly_line_700565c44aae8487af1a15e781a2ddac.bindTooltip(
+                `<div>
+                     Portimão to Lagos: 12 mi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_5a7fa9e61df28558d3e53285480e924f = L.polyline(
+                [[37.1366, -8.5378], [38.7169, -9.1399]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47def0d2b2dea4ea9d0b6f7addd8c113);
+        
+    
+            poly_line_5a7fa9e61df28558d3e53285480e924f.bindTooltip(
+                `<div>
+                     Portimão to Lisbon: 170 mi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ea9f855b148f6931d6304539d8b71acd = L.polyline(
+                [[37.0018, -8.9391], [37.102, -8.6742]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47def0d2b2dea4ea9d0b6f7addd8c113);
+        
+    
+            poly_line_ea9f855b148f6931d6304539d8b71acd.bindTooltip(
+                `<div>
+                     Sagres to Lagos: 20 mi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_66f28b94e09f0532523ed0a818ae1a6b = L.polyline(
+                [[37.0018, -8.9391], [38.7169, -9.1399]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47def0d2b2dea4ea9d0b6f7addd8c113);
+        
+    
+            poly_line_66f28b94e09f0532523ed0a818ae1a6b.bindTooltip(
+                `<div>
+                     Sagres to Lisbon: 196 mi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_2347144f3145368ad9de71c4d6756352 = L.polyline(
+                [[37.102, -8.6742], [38.7169, -9.1399]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_47def0d2b2dea4ea9d0b6f7addd8c113);
+        
+    
+            poly_line_2347144f3145368ad9de71c4d6756352.bindTooltip(
+                `<div>
+                     Lagos to Lisbon: 187 mi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
